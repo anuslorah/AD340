@@ -1,2 +1,2 @@
 Homework 1
-Basic app without using xml
+Basic absolutely minimal app without using xml
