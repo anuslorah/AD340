@@ -37,21 +37,6 @@ public class RecyclerViewActivity extends Activity {
                 Log.i(TAG, "Clicked " + position + " " + movie[position].getTitle());
                 send = Integer.toString(position);
                 send();
-
-                //RecyclerViewActivity rv = (RecyclerViewActivity)this.getActivity();
-//                setContentView(R.layout.recycler_card_detail);
-//
-//                TextView title1 = (TextView)findViewById(R.id.title);
-//                title1.setText(movie[position].getTitle());
-//
-//                TextView year1 = (TextView)findViewById(R.id.year);
-//                year1.setText(movie[position].getYear());
-//
-//                TextView director1 = (TextView)findViewById(R.id.director);
-//                director1.setText(movie[position].getDirector());
-//
-//                TextView description1 = (TextView)findViewById(R.id.description);
-//                description1.setText(movie[position].getDescription());
             }
         });
     }
