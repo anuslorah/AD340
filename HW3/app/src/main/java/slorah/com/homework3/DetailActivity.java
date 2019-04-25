@@ -24,25 +24,20 @@ public class DetailActivity extends Activity {
         }
 
         this.movie = ZombieMovies.initMovies();
-        //position = movie.indexOf(title);
 
         setContentView(R.layout.recycler_card_detail);
 
         TextView title1 = findViewById(R.id.title);
-        title1.setText("POS: " + position);
-        Log.i(TAG, "position" + position + " " + isInt(position));
+        title1.setText( movie[position].getTitle()));
 
+        TextView year = findViewById(R.id.year);
+        year.setText(Integer.toString(movie[position].getYear()));
 
+        TextView director = (TextView)findViewById(R.id.director);
+        director.setText(movie[position].getDirector());
 
-//        TextView year = findViewById(R.id.year);
-//        year.setText(movie[position].getYear());
-
-//        TextView director = (TextView)findViewById(R.id.director);
-//        year.setText(movie[position].getDirector());
-//
-//
-//        TextView description = (TextView)findViewById(R.id.description);
-//        year.setText(movie[position].getDescription());
+        TextView description = (TextView)findViewById(R.id.description);
+        description.setText(movie[position].getDescription());
 
 
     }
