@@ -3,8 +3,13 @@ package slorah.com.homework3;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
+import android.text.method.ScrollingMovementMethod;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
+import com.squareup.picasso.Picasso;
 
 public class DetailActivity extends Activity {
 
@@ -24,27 +29,25 @@ public class DetailActivity extends Activity {
         }
 
         this.movie = ZombieMovies.initMovies();
-        //position = movie.indexOf(title);
 
         setContentView(R.layout.recycler_card_detail);
 
         TextView title1 = findViewById(R.id.title);
-        title1.setText("POS: " + position);
-        Log.i(TAG, "position" + position + " " + isInt(position));
+        title1.setText(movie[position].getTitle());
+        //Log.i(TAG, movie[position].getTitle());
 
+        TextView year1 = findViewById(R.id.year);
+        year1.setText(Integer.toString(movie[position].getYear()));
 
+        // from http://square.github.io/picasso/
+        ImageView pic = (ImageView)findViewById(R.id.pic);
+        Picasso.get().load(movie[position].getImageLink()).into(pic);
 
-//        TextView year = findViewById(R.id.year);
-//        year.setText(movie[position].getYear());
+        TextView director = (TextView)findViewById(R.id.director);
+        director.setText(movie[position].getDirector());
 
-//        TextView director = (TextView)findViewById(R.id.director);
-//        year.setText(movie[position].getDirector());
-//
-//
-//        TextView description = (TextView)findViewById(R.id.description);
-//        year.setText(movie[position].getDescription());
-
-
+        TextView description = (TextView)findViewById(R.id.description);
+        description.setText(movie[position].getDescription());
     }
 }
 

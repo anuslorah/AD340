@@ -2,6 +2,7 @@ package slorah.com.homework3;
 
 import java.util.ArrayList;
 
+//based on LegoKit example
 public class ZombieMovies {
     private String title;
     private int year;

@@ -4,11 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.Toast;
+
 import com.muddzdev.styleabletoastlibrary.StyleableToast;
 
 public class MainActivity extends AppCompatActivity {
@@ -36,23 +34,17 @@ public class MainActivity extends AppCompatActivity {
         }
         // show image in toast
         if (view.getId() == R.id.button2) {
-            Toast toast = Toast.makeText(getApplicationContext(), "Look, a yellow dandelion!", Toast.LENGTH_SHORT);
-            toast.setGravity(Gravity.CENTER, 0, 100);
-            LinearLayout toastContentView = (LinearLayout) toast.getView();
-            ImageView imageView = new ImageView(getApplicationContext());
-            imageView.setImageResource(R.drawable.dandelion);
-            toastContentView.addView(imageView, 0);
-            toast.show();
+            Toast.makeText(getApplicationContext(), "Button two", Toast.LENGTH_SHORT).show();
             return;
         }
         // styled toast
         if (view.getId() == R.id.button3) {
-            StyleableToast.makeText(getApplicationContext(),"Button three", Toast.LENGTH_LONG, R.style.fancyToast).show();
+            StyleableToast.makeText(getApplicationContext(), "Button three, custom toast", Toast.LENGTH_SHORT, R.style.fancyToast).show();
             return;
         }
         // regular toast
         if (view.getId() == R.id.button4) {
-            Toast.makeText(getApplicationContext(),"Button four",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Button four", Toast.LENGTH_SHORT).show();
             return;
         }
     }

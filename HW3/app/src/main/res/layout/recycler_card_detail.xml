@@ -1,38 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/scroller"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:clipChildren="false"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/title"
-            android:textStyle="bold"
-            android:layout_margin="6dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"/>
 
         <TextView
             android:id="@+id/year"
-            android:layout_margin="6dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp" />
 
         <TextView
             android:id="@+id/director"
-            android:layout_margin="6dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent"
+            android:layout_margin="6dp" />
 
         <TextView
             android:id="@+id/description"
-            android:layout_margin="6dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent"
+            android:layout_margin="6dp" />
 
     </LinearLayout>
-</android.support.constraint.ConstraintLayout>
+</ScrollView>
