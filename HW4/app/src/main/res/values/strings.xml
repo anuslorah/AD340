@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Homework4</string>
+    <string name="app_bar_share">share</string>
+    <string name="app_bar_setting">settings</string>
+    <string name="fragment_home">I like to make things by hand. \n\nMake sure sound is on to test AppBar icon functionality!</string>
+    <string name="fragment_about">This is a bunny I was knitting in class on week 3.</string>
+    <string name="about">about</string>
+    <string name="home">home</string>
+    <string name="nav_open_drawer">Open drawer</string>
+    <string name="nav_close_drawer">Close drawer</string>
+</resources>
