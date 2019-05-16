@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HW5</string>
+    <string name="default_grams">50</string>
+    <string name="default_yards">145</string>
+
+    <string-array name="gram_choice">
+        <item>choose skein weight</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+</resources>
