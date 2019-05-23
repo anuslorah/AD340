@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Traffic Cameras</string>
+    <string name="button_data">connet to cameras</string>
+    <string name="waiting">Waiting for connection...</string>
+    <string name="no_connection">Not connected :(</string>
+
+</resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Homework4</string>
+    <string name="app_name">Fragments</string>
     <string name="app_bar_share">share</string>
     <string name="app_bar_setting">settings</string>
     <string name="fragment_home">I like to make things by hand. \n\nMake sure sound is on to test AppBar icon functionality!</string>
