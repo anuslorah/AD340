@@ -19,9 +19,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key">
         </meta-data>
-        <service
-            android:name=".FetchAddressIntentService"
-            android:exported="false"/>
+
         <activity android:name="slorah.com.hw7.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
