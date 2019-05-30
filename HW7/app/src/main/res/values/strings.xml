@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Traffic Cam Maps</string>
+    <string name="button_data">connet to cameras</string>
+    <string name="waiting">Waiting for connection...</string>
+    <string name="no_connection">Not connected :(</string>
+    <string name="service_not_available">Service is not available</string>
+    <string name="invalid_lat_long_used">Invalid location</string>
+    <string name="no_address_found">Sorry, can\'t find the address</string>
+    <string name="address_found">Address found</string>
+
+</resources>

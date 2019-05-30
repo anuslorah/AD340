@@ -3,7 +3,7 @@
     package="slorah.com.homework1">
 
     <application
-        android:label="Homework 1">
+        android:label="NoXML">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
