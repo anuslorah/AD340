@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infotext1"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"/>
+    <Button
+        android:id="@+id/simple_notifiaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simple_notification"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infotext2"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/start_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_activity_text"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infotext3"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/custom_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_notifcation_text"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

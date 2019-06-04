@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">notifications</string>
+    <string name="simple_notification_text">Look, an acorn!</string>
+    <string name="simple_notification_title">Important note</string>
+    <string name="channel_name">Anu channel</string>
+    <string name="channel_description">my very own notification channel</string>
+    <string name="start_activity_text">slightly more complex notification</string>
+    <string name="simple_notification">simple notification</string>
+    <string name="infotext1">this is most basic notification</string>
+    <string name="start_activity_notification_title">start another activity</string>
+    <string name="start_activity_notification_text">click me to see something new</string>
+    <string name="custom_title">Extra, extra!</string>
+    <string name="custom_text">Read me quickly I disappear in 10 seconds</string>
+    <string name="custom_text2">Read me quickly I disappear in 10 seconds but I am a really long text</string>
+    <string name="custom_notifcation_text">custom notification</string>
+    <string name="infotext2">this notification starts an activity with backstack</string>
+    <string name="infotext3">this notification has its own layout file and is fully customizeable, it also launches only after a delay</string>
+
+</resources>
